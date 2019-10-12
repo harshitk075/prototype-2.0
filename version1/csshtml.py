@@ -57,7 +57,7 @@ for key,value in div.items():
         css+='#'+value[0]+'{margin:'+value[1]+';}'
     match = similarity(value[-1],'IMAGE')
     if match > 0.7:
-        html+='<img src="1.jpg" alt="'+value[0]+'">'
+        html+='<img src="test2.jpg" alt="'+value[0]+'">'
         html+='<br>'
         css+='img{;width:304px;height:228px}'
         
